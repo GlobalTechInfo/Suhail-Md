@@ -11,7 +11,8 @@ global.email ="saimsamsun789@gmail.com"
 global.location="Lahore,Pakistan."
 
 
-global.mongodb= process.env.MONGODB_URI || "mongodb+srv://tlptrends92:xOYSsnljBS7Ot9H7@cluster0.chdovp7.mongodb.net/"
+global.mongodb= process.env.MONGODB_URI || "mongodb+srv://Lunmera:Lunmera@atlascluster.ahk537j.mongodb.net/?retryWrites=true&w=majority&appName=AtlasCluster"
+  "
 global.allowJids= process.env.ALLOW_JID || "null" 
 global.blockJids= process.env.BLOCK_JID || "null"
 global.DATABASE_URL = process.env.DATABASE_URL || "mongodb+srv://Lunmera:Lunmera@atlascluster.ahk537j.mongodb.net/?retryWrites=true&w=majority&appName=AtlasCluster"
