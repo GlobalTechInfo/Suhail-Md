@@ -22,10 +22,10 @@ global.github=process.env.GITHUB|| "https://github.com/GlobalTechInfo/Suhail-Md"
 global.gurl  =process.env.GURL  || "https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07";
 global.website=process.env.GURL || "https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07" ; 
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "" ; // SET LOGO FOR IMAGE 
-global.caption = process.env.CAPTION || global.caption || "SUHAIL-MD-V5" 
+global.caption = process.env.CAPTION || global.caption || "𝗞𝗛𝗔𝗥𝗔𝗟-𝗠𝗗-𝗩𝟱" 
 
 
-global.devs = "923184474176" // Developer Contact
+global.devs = "923444844060" // Developer Contact
 global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "923051391007";
 global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "";
 
@@ -77,7 +77,7 @@ module.exports = {
  
   author : process.env.PACK_AUTHER|| "",
   packname: process.env.PACK_NAME || "",
-  botname : process.env.BOT_NAME  || "SUHAIL-MD-V5",
+  botname : process.env.BOT_NAME  || "𝗞𝗛𝗔𝗥𝗔𝗟-𝗠𝗗",
   ownername:process.env.OWNER_NAME|| "꧁☆STRANGER☆꧂",
 
 
@@ -93,7 +93,7 @@ module.exports = {
 
 
   WORKTYPE: process.env.WORKTYPE || process.env.MODE|| "public",
-  LANG: ( process.env.THEME ||  "SUHAIL"  ).toUpperCase(),
+  LANG: ( process.env.THEME ||  "KHARAL"  ).toUpperCase(),
 
 
 
@@ -131,15 +131,15 @@ fs.watchFile(file, () => { fs.unwatchFile(file);console.log(`Update'${__filename
  
 
 // ========================= [ Disables in V.1.2.8 ] ===============================\\  
-  //style : process.env.STYLE || "2",  // put '1' & "2" here to check bot styles
+  //style : process.env.STYLE || "",  // put '1' & "2" here to check bot styles
   //readmessage:process.env.READ_MESSAGE|| "false",
   //warncount: process.env.WARN_COUNT || 3,
-  //userImages:process.env.USER_IMAGES|| "text",  // SET IMAGE AND VIDEO URL FOR BOT MENUS 
+  //userImages:process.env.USER_IMAGES|| "",  // SET IMAGE AND VIDEO URL FOR BOT MENUS 
   //disablepm: process.env.DISABLE_PM || "false",
   //MsgsInLog: process.env.MSGS_IN_LOG|| "false", // "true"  to see messages , "log" to open logs , "false" to hide logs messages
-  //readcmds:process.env.READ_COMMANDS|| "false", 
-  //alwaysonline:process.env.WAPRESENCE|| "unavailable", // 'unavailable' | 'online' | 'composing' | 'recording' | 'paused'
-  //read_status: process.env.AUTO_READ_STATUS || "false",
+  //readcmds:process.env.READ_COMMANDS|| "true", 
+  //alwaysonline:process.env.WAPRESENCE|| "online", // 'unavailable' | 'online' | 'composing' | 'recording' | 'paused'
+  //read_status: process.env.AUTO_READ_STATUS || "true",
   //save_status: process.env.AUTO_SAVE_STATUS || "false",
   //aitts_Voice_Id : process.env.AITTS_ID || "37",
-  //ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY  || "",
+  //ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY  || "0cdb1aed858329b9793413672094ce0d",
